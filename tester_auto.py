@@ -3,7 +3,7 @@ import torch
 
 # Initialize the handler with Llama 3 8B
 handler = ModelHandler_AutoGen(
-    api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM",
+    api_key="",
     time_link=True
 
     # deep_reasoning=False
