@@ -11,7 +11,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Initialize the handler with your API key
-handler = ModelHandler(api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM")
+handler = ModelHandler(api_key="")
 
 def extract_display_name(prompt):
     """Extract display name from messages like 'Here's a message from {name} |...'"""
