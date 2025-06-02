@@ -4,7 +4,7 @@
 # client = Together()
 
 
-# handler = ModelHandler(api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM")
+# handler = ModelHandler(api_key="")
 # # Add custom experts if needed
 
 
@@ -69,7 +69,7 @@ from LLM_constructure import ModelHandler
 
 
 
-handler = ModelHandler(api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM")
+handler = ModelHandler(api_key="")
 
 # Add custom experts with debug prints
 def my_art_handler_function(prompt):
