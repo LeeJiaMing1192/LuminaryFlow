@@ -17,7 +17,7 @@ from datetime import datetime # Corrected import: import the datetime CLASS dire
 # from Acessing_app.youtube_play import search_youtube_and_play
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-client = genai.Client(api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM")
+client = genai.Client(api_key="")
 
 def capture_and_save_screenshot(filename_prefix="screenshot"):
     """
