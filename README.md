@@ -19,13 +19,10 @@ Time-Queueing Memory: Utilizes a time-queueing memory system to manage and retri
 
 Modular Architecture: Enables highly organized and reusable code components, promoting scalability and maintainability.
 
-High Performance: Optimized for speed and efficiency, ensuring your applications run smoothly even under heavy loads.
+
 
 Extensible Plugin System: Easily integrate custom functionalities or third-party libraries.
 
-Developer-Friendly API: Simple and intuitive API design reduces the learning curve and boosts productivity.
-
-Comprehensive Tooling: Includes built-in tools for testing, debugging, and deployment.
 
 [Add more features as needed]
 
