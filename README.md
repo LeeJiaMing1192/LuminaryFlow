@@ -1,7 +1,3 @@
-﻿# LuminaryFlow
-
-
-
 LuminaryFlow
 🚀 Overview
 LuminaryFlow is a cutting-edge framework designed to streamline the development of [briefly describe what the framework is for, e.g., "high-performance web applications," "data processing pipelines," "machine learning models," etc.]. It provides a robust, scalable, and intuitive architecture that empowers developers to build complex systems with ease and efficiency.
@@ -9,15 +5,27 @@ LuminaryFlow is a cutting-edge framework designed to streamline the development 
 Our goal with LuminaryFlow is to simplify common development challenges, accelerate project timelines, and ensure maintainability through clean, modular design principles.
 
 ✨ Features
-[Feature 1]: [Short description of the feature and its benefit, e.g., "Modular Architecture:** Enables highly organized and reusable code components, promoting scalability and maintainability."]
+Supports up to 5 Variations: Provides flexibility to develop and manage multiple variations of your application or model effortlessly.
 
-[Feature 2]: [Short description, e.g., "High Performance:** Optimized for speed and efficiency, ensuring your applications run smoothly even under heavy loads."]
+Easy Expert and Tool Attachment: Seamlessly integrate custom experts and tools to extend the framework's capabilities.
 
-[Feature 3]: [Short description, e.g., "Extensible Plugin System:** Easily integrate custom functionalities or third-party libraries."]
+Advanced Reasoning and Activation: Features intelligent tools capable of advanced reasoning to determine sequential or sparse activation of multiple experts.
 
-[Feature 4]: [Short description, e.g., "Developer-Friendly API:** Simple and intuitive API design reduces the learning curve and boosts productivity."]
+Self-Built Long-Term Memory (FAISS): Incorporates a robust long-term memory retrieval system powered by FAISS for efficient data recall.
 
-[Feature 5]: [Short description, e.g., "Comprehensive Tooling:** Includes built-in tools for testing, debugging, and deployment."]
+Short-Term Memory: Includes a short-term memory component for immediate context and improved conversational flow or processing.
+
+Time-Queueing Memory: Utilizes a time-queueing memory system to manage and retrieve temporal data effectively.
+
+Modular Architecture: Enables highly organized and reusable code components, promoting scalability and maintainability.
+
+High Performance: Optimized for speed and efficiency, ensuring your applications run smoothly even under heavy loads.
+
+Extensible Plugin System: Easily integrate custom functionalities or third-party libraries.
+
+Developer-Friendly API: Simple and intuitive API design reduces the learning curve and boosts productivity.
+
+Comprehensive Tooling: Includes built-in tools for testing, debugging, and deployment.
 
 [Add more features as needed]
 
@@ -25,47 +33,36 @@ Our goal with LuminaryFlow is to simplify common development challenges, acceler
 To get started with LuminaryFlow, follow these simple steps:
 
 Prerequisites
-[List any prerequisites, e.g., "Node.js (v16 or higher)", "Python (v3.9 or higher)", "A specific database", etc.]
+[List any prerequisites, e.g., "Python (v3.9 or higher)", "A specific database", etc.]
 
-Example: Node.js >= 16.x
+Example: Python >= 3.9
 
-Example: npm or yarn
-
-Using npm (for Node.js/JavaScript projects)
-npm install luminaryflow
-
-Using pip (for Python projects)
+Using pip
 pip install luminaryflow
 
-From Source (for all projects)
+From Source
 Clone the repository:
 
-git clone https://github.com/your-username/luminaryflow.git
+git clone https://github.com/LeeJiaMing1192/LuminaryFlow.git
 cd luminaryflow
 
 Install dependencies:
 
-If using npm:
-
-npm install
-
-If using pip:
-
 pip install -r requirements.txt
 
-[Add any specific build steps if necessary, e.g., "Run build script: npm run build"]
+[Add any specific build steps if necessary, e.g., "Run build script: python setup.py build"]
 
 💡 Usage
 Here's a quick example of how to use LuminaryFlow in your project:
+
+Advanced Usage Example (Python - Expert Integration)
 from self_deter_construct import ModelHandler_AutoGen
 import torch
 
-# Initialize the handler with Gemini 2.5 Flash 
+# Initialize the handler with Gemini 2.5 Flash
 handler = ModelHandler_AutoGen(
     api_key="",
     time_link=True
-
-
 )
 
 # Add custom experts with debug prints
@@ -96,20 +93,15 @@ def run_test(prompt, sparse_activation=False, unify=True):
     print(f"\n[TEST START] Processing prompt: '{prompt}'")
     print(f"[MODE] Sparse Activation: {sparse_activation} | Unify: {unify}")
     # print(f"[MODEL] Llama 3 8B | Deep Reasoning: {handler.deep_reasoning}")
-    
 
-    
 
 # Test cases
-test_prompts = [ 
-    ("Cany you remind me of my birth day please.... its on March 22nd", False, False), 
-
+test_prompts = [
+    ("Cany you remind me of my birth day please.... its on March 22nd", False, False),
 ]
 
 for prompt, sparse, unify in test_prompts:
     run_test(prompt, sparse_activation=sparse, unify=unify)
-
-
 
 For more detailed examples and advanced configurations, please refer to the Documentation folder.
 
