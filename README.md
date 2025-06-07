@@ -122,4 +122,4 @@ Open a Pull Request to the main branch of the original repository.
 Please read our Contribution Guidelines for more details.
 
 📄 License
-LuminaryFlow is open-source software licensed under the [Specify your license, e.g., MIT License, Apache 2.0 License]. See the LICENSE file for more details.
+LuminaryFlow is open-source software licensed under the MIT License, Apache 2.0 License. See the LICENSE file for more details.
