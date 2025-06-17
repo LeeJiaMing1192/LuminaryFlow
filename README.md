@@ -1,10 +1,10 @@
 LuminaryFlow
-🚀 Overview
+Overview
 LuminaryFlow is a cutting-edge framework designed to streamline the development of [briefly describe what the framework is for, e.g., "high-performance web applications," "data processing pipelines," "machine learning models," etc.]. It provides a robust, scalable, and intuitive architecture that empowers developers to build complex systems with ease and efficiency.
 
 Our goal with LuminaryFlow is to simplify common development challenges, accelerate project timelines, and ensure maintainability through clean, modular design principles.
 
-✨ Features
+Features
 Supports up to 5 Variations: Provides flexibility to develop and manage multiple variations of your application or model effortlessly.
 
 Easy Expert and Tool Attachment: Seamlessly integrate custom experts and tools to extend the framework's capabilities.
