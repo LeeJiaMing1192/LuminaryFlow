@@ -30,10 +30,9 @@ Extensible Plugin System: Easily integrate custom functionalities or third-party
 To get started with LuminaryFlow, follow these simple steps:
 
 Prerequisites
-[List any prerequisites, e.g., "Python (v3.9 or higher)", "A specific database", etc.]
 
-Example: Python >= 3.9
-
+Python >= 3.9
+Google GenAI
 Using pip
 pip install luminaryflow
 
