@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import sys
 sys.stdout.reconfigure(encoding='utf-8')  # Python 3.7+
 
-google_api_key = "AIzaSyD00vbnGX8UrPy7mTuKk8foJaZ64j8fmkw"
-CX = "16397320c346b4714"
+google_api_key = ""
+CX = ""
 
 # 📦 Install dependencies first:
 # pip install langchain langchain-community openai faiss-cpu rank_bm25 beautifulsoup4 requests
