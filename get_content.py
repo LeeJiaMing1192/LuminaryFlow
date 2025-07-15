@@ -196,8 +196,8 @@ class GoogleSearchProcessor:
 if __name__ == "__main__":
     # Initialize with your Google API credentials
     processor = GoogleSearchProcessor(
-        api_key="AIzaSyD00vbnGX8UrPy7mTuKk8foJaZ64j8fmkw",
-        cx_id="16397320c346b4714"
+        api_key="",
+        cx_id=""
     )
     
     # Example search
