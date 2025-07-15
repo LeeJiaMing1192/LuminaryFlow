@@ -143,7 +143,7 @@ def science_expert(prompt):
 def vision_expert(prompt):
     print(f"[EXPERT - VISION] Prompt received: {prompt}")
     capture_and_save_screenshot()
-    client = genai.Client(api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM")
+    client = genai.Client(api_key="")
 
     try:
         myfile = client.files.upload(file="C:/Users/ADMIN/Desktop/Vtuber_backend/temp_shot.jpg")
