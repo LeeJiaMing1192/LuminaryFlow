@@ -5,10 +5,10 @@ from openai import OpenAI
 # Initialize the handler with Llama 3 8B
 
 
-client = Together(api_key="edbc5bdb99f79ca051591d8bcc538926664620bc1f0d5e0992df2942a59858b1")
+client = Together(api_key="")
 client_openRouter = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key="",
 )
 
 # def my_art_handler_function(prompt):
@@ -16,7 +16,7 @@ client_openRouter = OpenAI(
 #     return {"status": "success", "response": "TESTING ART EXPERT"}
 
 handler = ModelHandler_AutoGen(
-    api_key="AIzaSyABw1ZSfEHxfdKCHybrDNHmNV2BjSuhMyM",
+    api_key="",
     time_link=True,
     google_search_using="auto"
 
