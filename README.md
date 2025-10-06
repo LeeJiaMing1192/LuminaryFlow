@@ -1,6 +1,6 @@
 LuminaryFlow
 Overview
-LuminaryFlow is a cutting-edge framework designed to streamline the development of [briefly describe what the framework is for, e.g., "high-performance web applications," "data processing pipelines," "machine learning models," etc.]. It provides a robust, scalable, and intuitive architecture that empowers developers to build complex systems with ease and efficiency.
+LuminaryFlow is a cutting-edge framework designed to streamline the development of AI agents. It provides a robust, scalable, and intuitive architecture that empowers developers to build complex systems with ease and efficiency.
 
 Our goal with LuminaryFlow is to simplify common development challenges, accelerate project timelines, and ensure maintainability through clean, modular design principles.
 
@@ -124,3 +124,4 @@ More features will be coming !
 
 📄 License
 LuminaryFlow is open-source software licensed under the MIT License, Apache 2.0 License. See the LICENSE file for more details.
+
