@@ -19,7 +19,9 @@ Time-Queueing Memory: Utilizes a time-queueing memory system to manage and retri
 
 Modular Architecture: Enables highly organized and reusable code components, promoting scalability and maintainability.
 
+Diverse models: A whopping 11 experts sepcialized in Different fields
 
+A State of the art frontier feature, that is our model havea built in UI for manual override over how the experts are linked together , control how many experts to activate for that prompt, if the reasoning path you choose is chained activation it will be linked and you can adjust the order, for Sparse activation you can disable and enable model for your task. No only that our front end UI directly shows the flow of experts on the user screen and each of their content, this helps solve our current black box AI problem.
 
 Extensible Plugin System: Easily integrate custom functionalities or third-party libraries.
 
@@ -124,4 +126,5 @@ More features will be coming !
 
 📄 License
 LuminaryFlow is open-source software licensed under the MIT License, Apache 2.0 License. See the LICENSE file for more details.
+
 
